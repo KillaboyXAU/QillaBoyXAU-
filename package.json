@@ -1,0 +1,16 @@
+{
+  "name": "qilla-xau",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:desktop": "npm run dev --workspace=apps/frontend-desktop",
+    "dev:mobile": "npm run dev --workspace=apps/frontend-mobile",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  }
+}
