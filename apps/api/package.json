@@ -1,0 +1,14 @@
+{
+  "name": "@qilla-xau/api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"API gateway not yet implemented — see docs/architecture.md section 4\" && exit 0"
+  },
+  "dependencies": {
+    "@qilla-xau/risk-engine": "*",
+    "@qilla-xau/strategy-engine": "*",
+    "@qilla-xau/data-engine": "*",
+    "@qilla-xau/shared-types": "*"
+  }
+}
